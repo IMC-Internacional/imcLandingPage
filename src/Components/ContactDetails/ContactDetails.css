@@ -1,0 +1,59 @@
+
+.contactDetailsContainer{
+    display: grid;
+    grid-template-rows: 0.1fr 1fr;
+    position: absolute;
+    top: -0.4rem;
+    width: 90%;
+    height: 95%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.911);
+    border-radius: 1rem;
+    padding-top: 1rem;
+    transition: all 1s;
+}
+
+.contactDetailsContainerInactive {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.8s;
+}
+
+.XContainer {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50% 50%;
+}
+
+.XContainer:active {
+    transform: scale(1.2);
+}
+
+.contacDetailsInternalContainer{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 14rem;
+    height: 16rem;
+    color: aliceblue;
+    gap: 4rem;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 14rem;
+    height: 10rem;
+    gap: 0.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
