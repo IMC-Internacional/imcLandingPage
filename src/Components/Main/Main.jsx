@@ -21,6 +21,7 @@ const Main = () => {
                     <h1>Instructores de TPM</h1>
                 <iframe src="VIDEO INSTRUCTORES FINAL.mp4" className="firstVideo"></iframe>
             </div>
+            <img src="/logoContactBoy.png" alt="" className="contactLogo" onClick={handleClickDetailsContainer}/>
         </div>
     )
 }
